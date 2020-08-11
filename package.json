@@ -13,9 +13,11 @@
     "jsdom": "^15.2.1",
     "jshint": "^2.11.1",
     "shelljs": "^0.8.4",
-    "uglify-js": "^2.8.29"
+    "uglify-js": "^2.8.29",
+    "http-server": "^0.12.3"
   },
   "scripts": {
+    "start": "http-server .",
     "build": "node make.js",
     "test": "node test/celestial-test.js",
     "jshint": "jshint src/**.js"
